@@ -15,13 +15,15 @@ import {MatDialogModule} from '@angular/material/dialog';
 import {MatFormFieldModule} from '@angular/material/form-field';
 
 import { MatInputModule } from '@angular/material/input';
+import { FomularioLoginComponent } from './fomulario-login/fomulario-login.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     CabecalhoComponent,
-    FooterComponent
+    FooterComponent,
+    FomularioLoginComponent
   ],
   imports: [
     BrowserModule,

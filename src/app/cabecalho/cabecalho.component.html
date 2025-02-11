@@ -1,0 +1,37 @@
+<mat-toolbar class="transparent-toolbar">
+  <span class="">NuvemGames</span>
+  <span class="example-spacer"></span>
+
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" [matMenuTriggerFor]="menu" >
+    <mat-icon>menu</mat-icon>
+  </button>
+
+  <mat-menu #menu="matMenu" class="menuGames">
+    <button mat-menu-item>
+      <img src="../../assets/icon/ps2.png"  style="width: 24px; height: 24px;">
+      <span>PS2</span>
+    </button>
+
+    <button mat-menu-item>
+      <img src="../../assets/icon/ps2.png"  style="width: 24px; height: 24px;">
+      <span>PSVITA</span>
+    </button>
+
+    <button mat-menu-item>
+      <img src="../../assets/icon/nintendo-3ds.png"  style="width: 24px; height: 24px;">
+      <span>3DS</span>
+    </button>
+
+    <button mat-menu-item>
+      <img src="../../assets/icon/nintendo-ds.png"  style="width: 24px; height: 24px;">
+      <span>DS</span>
+    </button>
+
+    <button mat-menu-item>
+      <img src="../../assets/icon/wii-u-48.png"  style="width: 24px; height: 24px;">
+      <span>Wii U</span>
+    </button>
+
+  </mat-menu>
+
+</mat-toolbar>

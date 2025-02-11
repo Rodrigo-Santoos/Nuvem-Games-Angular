@@ -1,0 +1,42 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+.transparent-toolbar {
+  background-color: rgba(0, 0, 0, 0.664); /* Preto claro com 20% de opacidade */
+  border: none; /* Remova a borda, se houver */
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.2); /* Exemplo de cor de fundo */
+  padding: 10px;
+  text-align: center;
+}
+
+.spacer {
+  flex: 1;
+}
+
+a {
+  color: inherit; /* Herda a cor do elemento pai */
+  margin: 0 8px;
+}
+
+span{
+  padding-left: 10px;
+}
+

@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-image: url('assets/background/teste2.jpg');
+  background-repeat: no-repeat; /* Não repete a imagem */
+  background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+  background-position: center; /* Centraliza a imagem */
+  background-attachment: fixed; /* Mantém a imagem fixa enquanto a página é rolada */
+  width: 100%;
+}

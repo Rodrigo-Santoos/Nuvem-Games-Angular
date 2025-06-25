@@ -27,3 +27,21 @@ html, body {
   position: relative;
   z-index: 1;
 }
+
+// #bg-video {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   min-width: 100%;
+//   min-height: 100%;
+//   z-index: -1;
+//   object-fit: cover;
+// }
+
+mat-toolbar,
+mat-drawer-container,
+mat-drawer-content,
+mat-drawer {
+  background-color: transparent !important;
+
+}

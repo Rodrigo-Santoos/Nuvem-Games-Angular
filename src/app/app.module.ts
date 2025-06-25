@@ -18,6 +18,7 @@ import { MatInputModule } from '@angular/material/input';
 import { FomularioLoginComponent } from './fomulario-login/fomulario-login.component';
 import { PaginaPrincipalComponent } from './pagina-principal/pagina-principal.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import { MenuLateralComponent } from './menu-lateral/menu-lateral.component';
 
 
 @NgModule({
@@ -26,7 +27,9 @@ import {MatSidenavModule} from '@angular/material/sidenav';
     CabecalhoComponent,
     FooterComponent,
     FomularioLoginComponent,
-    PaginaPrincipalComponent
+    PaginaPrincipalComponent,
+    MenuLateralComponent,
+
   ],
   imports: [
     BrowserModule,

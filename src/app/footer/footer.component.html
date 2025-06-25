@@ -10,18 +10,20 @@
         <section class="mb-4">
 
           <!-- Email -->
-          <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="mailto:seuemail@dominio.com" role="button">
-            <mat-icon>email</mat-icon>
-          </a>
+          <button data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="rodrigoyukimide00@gmail.com" role="button"  (click)="copiarEmail()">
+           <img src="../../assets/icon/email.gif" alt="LinkedIn" style="height: 35px; width: 35px;" />
+          </button>
+            <!-- Mensagem de feedback -->
+            <span *ngIf="emailCopiado" class="text-success ms-2">📋 Email copiado!</span>
 
-          <!-- LinkedIn -->
-          <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="https://www.linkedin.com/in/seu-perfil" role="button">
-            <mat-icon>linkedin</mat-icon>
+          <!-- LinkedIn com GIF -->
+          <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="https://www.linkedin.com/in/rodrigo-oliveira-27a18415a/" target="_blank"  role="button">
+            <img src="../../assets/icon/linkedin.gif" alt="LinkedIn" style="height: 35px; width: 35px;" />
           </a>
 
           <!-- GitHub -->
-          <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="https://github.com/seu-usuario" role="button">
-            <mat-icon>github</mat-icon>
+          <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="https://github.com/Rodrigo-Santoos" target="_blank" role="button">
+            <img src="../../assets/icon/github.gif" alt="LinkedIn" style="height: 35px; width: 35px;" />
           </a>
         </section>
 

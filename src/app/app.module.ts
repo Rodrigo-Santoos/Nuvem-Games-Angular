@@ -16,6 +16,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 
 import { MatInputModule } from '@angular/material/input';
 import { FomularioLoginComponent } from './fomulario-login/fomulario-login.component';
+import { PaginaPrincipalComponent } from './pagina-principal/pagina-principal.component';
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 
 @NgModule({
@@ -23,7 +25,8 @@ import { FomularioLoginComponent } from './fomulario-login/fomulario-login.compo
     AppComponent,
     CabecalhoComponent,
     FooterComponent,
-    FomularioLoginComponent
+    FomularioLoginComponent,
+    PaginaPrincipalComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +38,8 @@ import { FomularioLoginComponent } from './fomulario-login/fomulario-login.compo
     MatCardModule,
     MatDialogModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatSidenavModule
   ],
   providers: [
     provideClientHydration(withEventReplay()),

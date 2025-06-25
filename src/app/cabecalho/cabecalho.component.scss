@@ -2,7 +2,7 @@
   flex: 1 1 auto;
 }
 .transparent-toolbar {
-  background-color: rgba(0, 0, 0, 0.664); /* Preto claro com 20% de opacidade */
+  background-color: black; /* Preto claro com 20% de opacidade */
   border: none; /* Remova a borda, se houver */
 }
 html, body {
@@ -38,5 +38,22 @@ a {
 
 span{
   padding-left: 10px;
+}
+
+.example-container {
+  width: 500px;
+  height: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-sidenav {
+  padding: 20px;
 }
 

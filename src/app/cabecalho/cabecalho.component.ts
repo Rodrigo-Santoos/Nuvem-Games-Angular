@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-cabecalho',
   standalone: false,
@@ -7,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './cabecalho.component.scss'
 })
 export class CabecalhoComponent {
-
+showFiller = false;
 }

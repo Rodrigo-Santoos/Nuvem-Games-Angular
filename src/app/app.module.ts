@@ -19,6 +19,8 @@ import { FomularioLoginComponent } from './fomulario-login/fomulario-login.compo
 import { PaginaPrincipalComponent } from './pagina-principal/pagina-principal.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { MenuLateralComponent } from './menu-lateral/menu-lateral.component';
+import { FormsModule } from '@angular/forms';
+
 
 
 @NgModule({
@@ -42,7 +44,8 @@ import { MenuLateralComponent } from './menu-lateral/menu-lateral.component';
     MatDialogModule,
     MatFormFieldModule,
     MatInputModule,
-    MatSidenavModule
+    MatSidenavModule,
+    FormsModule
   ],
   providers: [
     provideClientHydration(withEventReplay()),

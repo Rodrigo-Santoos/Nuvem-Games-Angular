@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { CREDENCIAIS } from '../../app/segredo-login'; // Ajuste o caminho se necessário
 
 
 @Component({
@@ -10,12 +11,19 @@ import { Router } from '@angular/router';
 })
 export class FomularioLoginComponent {
 
-  constructor(private router: Router){}
+ username: string = '';
+  password: string = '';
+
+  constructor(private router: Router) {}
 
   login() {
-  // Aqui você pode validar o email/senha se quiser
-  // Depois redireciona:
-  this.router.navigate(['/pagina-principal']);
-}
+    if (this.username === CREDENCIAIS.username && this.password === CREDENCIAIS.password) {
+      this.router.navigate(['/pagina-principal']);
+    } else {
+      alert('Acesso negado: login ou senha inválidos');
+    }
+  }
+
+
 
 }

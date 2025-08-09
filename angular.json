@@ -52,6 +52,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/Nuvem-Games-Angular/",
               "budgets": [
                 {
                   "type": "initial",

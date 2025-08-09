@@ -1,0 +1,105 @@
+{
+  "configVersion": 1,
+  "timestamp": 1754771531207,
+  "index": "/index.csr.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/chunk-2ICN53TM.js",
+        "/chunk-TL4KMTKM.js",
+        "/favicon.ico",
+        "/index.csr.html",
+        "/main-L2FI7B3B.js",
+        "/manifest.webmanifest",
+        "/polyfills-SCHOHYNV.js",
+        "/scripts-LGHYJXS5.js",
+        "/styles-SRYUHML6.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/background/teste.jpeg",
+        "/assets/background/teste2.jpg",
+        "/assets/icon/armazenamento-na-nuvem.png",
+        "/assets/icon/email.gif",
+        "/assets/icon/github.gif",
+        "/assets/icon/linkedin.gif",
+        "/assets/icon/nintendo-3ds.png",
+        "/assets/icon/nintendo-ds.png",
+        "/assets/icon/ps2.png",
+        "/assets/icon/wii-u-48.png",
+        "/icons/icon-128x128.png",
+        "/icons/icon-144x144.png",
+        "/icons/icon-152x152.png",
+        "/icons/icon-192x192.png",
+        "/icons/icon-384x384.png",
+        "/icons/icon-512x512.png",
+        "/icons/icon-72x72.png",
+        "/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/background/teste.jpeg": "e7f10c957ef8186ea60cc5f131319c8e6dbeff5f",
+    "/assets/background/teste2.jpg": "1d2a42fe70b77621ec7028d555d18311151ed0df",
+    "/assets/icon/armazenamento-na-nuvem.png": "0983f741992813e91f1b9423777f2084584fcaf2",
+    "/assets/icon/email.gif": "f75750ca33d2bd1a45be3480c5ff49981ec2f7eb",
+    "/assets/icon/github.gif": "dd698ca6945f6fb5cbe30cd67143669c58c18699",
+    "/assets/icon/linkedin.gif": "7faa8b217952fcea55b0f45634aa4073638e7b5e",
+    "/assets/icon/nintendo-3ds.png": "49488034bdbb3cf39ca6b5e0c47080244c87a25e",
+    "/assets/icon/nintendo-ds.png": "e9467acbe7787b5fe2d78106031b94ba5542e154",
+    "/assets/icon/ps2.png": "51d83ab04985ea94d236a32dab92f57a2dd2b5f0",
+    "/assets/icon/wii-u-48.png": "66e23c0b3a1eae9b338844936cdfca0c1d59f6a5",
+    "/chunk-2ICN53TM.js": "64a42d9f733c8979d2886412af36898f04b3fd04",
+    "/chunk-TL4KMTKM.js": "5b233df2cbd6508a8241ceb962dedcc97f21ffe8",
+    "/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/index.csr.html": "1b91cb5e6e9716f4c686e620123176f85bed04a2",
+    "/main-L2FI7B3B.js": "29d6cdb34302d92ee0cf74ff10a47c452712f69e",
+    "/manifest.webmanifest": "48833220f91e9b736e76805027ceb6b1476c24c5",
+    "/polyfills-SCHOHYNV.js": "d45c76c5960bab3ace7fd6d211b9579456241f8a",
+    "/scripts-LGHYJXS5.js": "375030f8e785331dcfa6a8594bda06041bb14738",
+    "/styles-SRYUHML6.css": "4fff7cc4be8f110129522e9b687267d5091ad86b"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

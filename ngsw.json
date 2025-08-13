@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1755042665545,
+  "timestamp": 1755043519442,
   "index": "/Nuvem-Games-Angular/index.html",
   "assetGroups": [
     {
@@ -41,6 +41,8 @@
         "/Nuvem-Games-Angular/assets/icon/nintendo-ds.png",
         "/Nuvem-Games-Angular/assets/icon/ps2.png",
         "/Nuvem-Games-Angular/assets/icon/wii-u-48.png",
+        "/Nuvem-Games-Angular/assets/pwa_icons/nuvem_games-192-192.png",
+        "/Nuvem-Games-Angular/assets/pwa_icons/nuvem_games-512-512.png",
         "/Nuvem-Games-Angular/icons/icon-128x128.png",
         "/Nuvem-Games-Angular/icons/icon-144x144.png",
         "/Nuvem-Games-Angular/icons/icon-152x152.png",
@@ -65,6 +67,8 @@
     "/Nuvem-Games-Angular/assets/icon/nintendo-ds.png": "e9467acbe7787b5fe2d78106031b94ba5542e154",
     "/Nuvem-Games-Angular/assets/icon/ps2.png": "51d83ab04985ea94d236a32dab92f57a2dd2b5f0",
     "/Nuvem-Games-Angular/assets/icon/wii-u-48.png": "66e23c0b3a1eae9b338844936cdfca0c1d59f6a5",
+    "/Nuvem-Games-Angular/assets/pwa_icons/nuvem_games-192-192.png": "d52318f1a0ca5935886848a5473e0f26071740bd",
+    "/Nuvem-Games-Angular/assets/pwa_icons/nuvem_games-512-512.png": "617cecd22041ab648e7ccee6169aac0f114f66ca",
     "/Nuvem-Games-Angular/chunk-2ICN53TM.js": "64a42d9f733c8979d2886412af36898f04b3fd04",
     "/Nuvem-Games-Angular/chunk-TL4KMTKM.js": "5b233df2cbd6508a8241ceb962dedcc97f21ffe8",
     "/Nuvem-Games-Angular/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",

@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1755044851646,
+  "timestamp": 1755131045482,
   "index": "/Nuvem-Games-Angular/index.html",
   "assetGroups": [
     {
@@ -15,7 +15,7 @@
         "/Nuvem-Games-Angular/chunk-TL4KMTKM.js",
         "/Nuvem-Games-Angular/favicon.ico",
         "/Nuvem-Games-Angular/index.html",
-        "/Nuvem-Games-Angular/main-L2FI7B3B.js",
+        "/Nuvem-Games-Angular/main-XYLX5J4C.js",
         "/Nuvem-Games-Angular/manifest.webmanifest",
         "/Nuvem-Games-Angular/polyfills-SCHOHYNV.js",
         "/Nuvem-Games-Angular/scripts-LGHYJXS5.js",
@@ -78,8 +78,8 @@
     "/Nuvem-Games-Angular/icons/nuvem_games-512-512.png": "617cecd22041ab648e7ccee6169aac0f114f66ca",
     "/Nuvem-Games-Angular/icons/nuvem_games-72-72.png": "b74eacffc2065cf50be1ef681438319c9e600ed6",
     "/Nuvem-Games-Angular/icons/nuvem_games-96-96.png": "1b0074a928d36f5aa428a0bb45cc64a29aad56d5",
-    "/Nuvem-Games-Angular/index.html": "27daa10e6e368b6a1e42716223fc196b7fd06893",
-    "/Nuvem-Games-Angular/main-L2FI7B3B.js": "29d6cdb34302d92ee0cf74ff10a47c452712f69e",
+    "/Nuvem-Games-Angular/index.html": "8c46cd7a23822ae0a73e6d5abac50649cb2ba723",
+    "/Nuvem-Games-Angular/main-XYLX5J4C.js": "c7c959aa771bfbf73c922e3bf65759bc822c2b30",
     "/Nuvem-Games-Angular/manifest.webmanifest": "9d080612dd2bed2c93ddbe17eb5849596f508b0c",
     "/Nuvem-Games-Angular/polyfills-SCHOHYNV.js": "d45c76c5960bab3ace7fd6d211b9579456241f8a",
     "/Nuvem-Games-Angular/scripts-LGHYJXS5.js": "375030f8e785331dcfa6a8594bda06041bb14738",
